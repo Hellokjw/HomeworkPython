@@ -11,9 +11,8 @@ corona1 = [1100, 1150, 1615, 1600, 1535, 1454, 1451] ## 일일 누적 확진자 
 corona2 = [427, 565, 739, 1018, 604, 647, 993] ## 일일 누적 격리해제자 수
 
 plt.subplot(2, 1, 2)
-plt.plot(date, corona1) ## 일일 누적 확진자 수를 통계로 나타냄.
-plt.plot(date, corona2) ## 일일 누적 격리해제자 수를 통계로 나타냄.
-
+plt.plot(date, corona1)
+plt.plot(date, corona2)
 
 plt.title("2021년 일일 누적 확진자 추세(2021.07.12 ~ 2021.07.18)")
 plt.xlabel("날짜")
